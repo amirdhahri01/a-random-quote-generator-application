@@ -1,4 +1,3 @@
-import './App.css';
 import Footer from './Dashboard/Components/Footer';
 import Quotes from './Dashboard/Quotes/Quotes';
 

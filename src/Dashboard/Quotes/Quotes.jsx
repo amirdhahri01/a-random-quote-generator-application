@@ -1,7 +1,7 @@
 import { Component } from "react";
 import QuotesAuthor from "../Components/QuotesAuthor";
 import QuotesText from "../Components/QuotesText";
-
+import "./Quotes.css"
 class Quotes extends Component {
   state = {
     quote: "The Best Richness, is the Richness of Soul",
