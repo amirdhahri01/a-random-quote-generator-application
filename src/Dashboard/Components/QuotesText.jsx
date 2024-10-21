@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
-const QuotesText = () => {
+const QuotesText = ({ quote, color }) => {
   return (
-    <div>QuotesText</div>
-  )
-}
+    <div className="quote-text" style={{ color: color }}>
+      <span className="text">{quote}</span>
+    </div>
+  );
+};
 
-export default QuotesText
+export default QuotesText;

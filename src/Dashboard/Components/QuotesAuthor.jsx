@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
-const QuotesAuthor = () => {
+const QuotesAuthor = ({ author, color }) => {
   return (
-    <div>QuotesAuthor</div>
-  )
-}
+    <div className="quote-author" style={{ color: color }}>
+      <span className="author">{author}</span>
+    </div>
+  );
+};
 
-export default QuotesAuthor
+export default QuotesAuthor;
