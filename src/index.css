@@ -4,7 +4,9 @@
   box-sizing: border-box;
   text-decoration: none;
 }
-
+html{
+  font-size: 62.5%;
+}
 body {
   font-family: "Courier New", Courier, monospace;
   background-color: rgb(243, 156, 18);
